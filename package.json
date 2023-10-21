@@ -8,14 +8,14 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "search-user-account",
+      "name": "search-user",
       "title": "Search User Account",
       "subtitle": "tz1...",
       "description": "This command is reponsible for inspecting implicit tezos accoounts (tz1...) on mainnet and ghostnet",
       "mode": "view"
     },
     {
-      "name": "search-contract-address",
+      "name": "search-contract",
       "title": "Search Contract Address",
       "subtitle": "KT1...",
       "description": "This command is responsible for inspecting deployed smart contracts on Tezos mainnet and ghostnet",
@@ -23,7 +23,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.56.0",
+    "@raycast/api": "^1.59.0",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
